@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="./css/main.css">
+    <script defer="defer" src="https://kit.fontawesome.com/88248afd94.js" crossorigin="anonymous"></script>
+    <title>John Doe &amp; Co. | Contact</title>
+</head>
+<body>
+    <header id="inner-header" class="page-header">
+        <div class="container">
+            <a href="./index.html">
+                <img class="logo" src="./img/logo.png" alt="">
+            </a>
+            <nav id="nav">
+                <ul>
+                    <li>
+                        <a class="item" href="./index.html">Home</a>    
+                    </li>
+                    <li>
+                        <a class="item" href="./about.html">About</a>    
+                    </li>
+                    <li>
+                        <a class="item" href="./work.html">Work</a>    
+                    </li>
+                    <li>
+                        <a class="item active" href="">Contact</a>    
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <section id="section-1" class="container mod-contact-section">
+            <h1 class="module-title bottom-line">Contact</h1>
+            <p class="lead">Here is how you can reach me/us</p>
+            <form name="contact" method="POST" data-netlify="true">
+                <div class="input-group">
+                    <label for="name">
+                        <input type="text" name="name" id="name" placeholder="Name">
+                    </label>
+                    <label for="subject">
+                        <input type="text" name="subject" id="subject" placeholder="Subject">
+                    </label>
+                    <label for="email">
+                        <input type="email" name="email" id="email" placeholder="Email Address">
+                    </label>
+                    <label for="phone">
+                        <input type="tel" name="phone" id="phone" placeholder="Phone Number">
+                    </label>
+                    <label for="message">
+                        <textarea name="message" id="message" rows="8" placeholder="Message"></textarea>
+                    </label>
+                </div>
+                <button type="submit" class="btn-style-2">Submit</button>
+            </form>
+            <div class="contact-info">
+                <div>
+                    <i class="fas fa-envelope fa-2x"></i>
+                    <p class="subtitle-text"> <strong> Email</strong><a>john@doeandco.com</a></p>
+                    
+                </div>
+                <div>
+                    <i class="fas fa-phone fa-2x"></i>
+                    <p class="subtitle-text"> <strong> Phone</strong><a>(555) 555-5555</a></p>
+                    
+                </div>
+                <div>
+                    <i class="fas fa-address-card fa-2x"></i>
+                    <p class="subtitle-text"> <strong> Address</strong></p>
+                    <address><a>St. John st, Boston MA</a></address>
+                </div>
+            </div>
+        </section>
+        <div id="section-2" class="mod-start-your-next-project container">
+            <h2>Start Your Next Project!</h2>
+        </div>
+    </main>
+    <footer class="page-footer container flex-container"> 
+                <p>Copyright &copy; 2019. All Rights Reserved</p>
+                <ul class="social-list">
+                    <li><a><i class="fab fa-twitter"></i></a></li>
+                    <li><a><i class="fab fa-facebook"></i></a></li>
+                    <li><a><i class="fab fa-instagram"></i></a></li>
+                    <li><a><i class="fab fa-linkedin"></i></a></li>
+                </ul>
+            
+        </footer>
+</body>
+</html>

@@ -1,0 +1,3 @@
+The first project involving SASS (CSS preprocessor) for development, since semantic HTML is characteristic of my work, I made no exception for this project just called "Portfolio", its elegancy displays profesionalism, perfect to show your work as web developer, SEO expert, graphic designer or UI/UX designer.
+
+Its styling includes the most modern, yet stable and supported CSS features, such as flexbox and grid, which guarantees a high level of responsiveness.
